@@ -1,0 +1,19 @@
+# Dependencies (none today; kept so a stray install never gets committed)
+node_modules/
+
+# Downloaded and generated data
+poe-output/
+poe-endpoint-capture-*/
+
+# Local-only configuration, such as the optional hygiene denylist
+_local/
+
+# Secrets and logs
+.env
+.env.*
+*.log
+*.ndjson
+
+# Editor and OS clutter
+.DS_Store
+*.tmp

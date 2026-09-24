@@ -1,0 +1,35 @@
+{
+  "name": "amazon-poe-downloader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Download Amazon Product Opportunity Explorer niche data from your own logged-in Seller Central session over the Chrome DevTools Protocol.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ecom Wizards",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "amazon-poe-downloader": "run-poe.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Wizards-Agency/amazon-poe-downloader.git"
+  },
+  "homepage": "https://github.com/Ecom-Wizards-Agency/amazon-poe-downloader#readme",
+  "bugs": "https://github.com/Ecom-Wizards-Agency/amazon-poe-downloader/issues",
+  "keywords": [
+    "amazon",
+    "seller-central",
+    "product-opportunity-explorer",
+    "cdp",
+    "claude-code-skill"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "self-test": "node run-poe.mjs self-test && node format-poe.mjs --self-test",
+    "lint": "node tools/lint-docs.mjs",
+    "hygiene": "node tools/hygiene-check.mjs",
+    "check": "npm run self-test && npm test && npm run lint && npm run hygiene"
+  }
+}

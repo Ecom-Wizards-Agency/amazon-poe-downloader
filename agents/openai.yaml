@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon POE Downloader"
+  short_description: "Download Amazon POE niche data to CSV and JSON"
+  default_prompt: "Use $amazon-poe-downloader to download the Product Opportunity Explorer data for this request into a local folder."
