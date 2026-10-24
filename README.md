@@ -20,7 +20,7 @@ Not captured: the trending niche modules on the POE home page, the category brow
 
 ## Requirements
 
-- Node.js 22 or newer. There are no npm dependencies.
+- Node.js 22.23.4 or 24.22.1 or newer (October 2026 security release). There are no npm dependencies.
 - Google Chrome or Chromium.
 - A Seller Central account with access to Product Opportunity Explorer. The menu entry is usually Growth > Product Opportunity Explorer.
 - One sign-in per Seller Central regional domain you use. `sellercentral.amazon.com` and `sellercentral.amazon.de` are separate sign-ins, even for the same account.
